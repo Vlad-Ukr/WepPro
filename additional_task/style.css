@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="submit"] {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin-left: 215px;
+}
+
+#error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
